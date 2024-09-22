@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h2>Checkout</h2>
+{% if unavailable_items %}
+    <p>The following items are unavailable:</p>
+    <ul>
+        {% for item in unavailable_items %}
+            <li>{{ item.item.name }} - Requested: {{ item.quantity }}</li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>Your total amount is: ${{ total_amount }}</p>
+    <form action="{% url 'checkout' %}" method="post">
+        {% csrf_token %}
+        <button type="submit">Confirm Checkout</button>
+    </form>
+{% endif %}
+</body>
+</html>
