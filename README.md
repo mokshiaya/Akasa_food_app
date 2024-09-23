@@ -1,4 +1,6 @@
-Food Ordering Application Overview:
+Food Ordering Application Using DJANGO 
+
+Overview:
 The Food Ordering Application is a comprehensive full-stack web solution built using Django, designed to simplify online food ordering. This platform enables users to browse food items, manage a shopping cart, and place orders in a seamless manner. The following document outlines the system's design, technical details, and the steps to run the application.
 
 Design Overview:
