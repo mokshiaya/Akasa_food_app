@@ -5,7 +5,13 @@ The Food Ordering Application is a comprehensive full-stack web solution built u
 Design Overview:
 The application offers a user-friendly interface with features such as item browsing by category, a persistent shopping cart, and secure user authentication. 
 Key features of the platform include:
-
+![Login Page](images/Screenshot 2024-09-23 032638.png)
+![Register Page](images/Screenshot 2024-09-23 032723.png)
+![Home](images/Screenshot 2024-09-23 032921.png)
+![Browse Page](images/Screenshot 2024-09-23 033014.png)
+![Cart Page](images/Screenshot 2024-09-23 033126.png)
+![Checkout Page](images/Screenshot 2024-09-23 033217.png)
+![Order History](images/Screenshot 2024-09-23 033248.png)
 User Authentication: Secure login and registration using Django's built-in authentication system.
 Item Browsing: Allows users to view food items categorized into fruits, vegetables, non-veg, and more.
 Shopping Cart: Users can add items to their cart, view cart contents, and proceed to checkout.
