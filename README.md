@@ -5,6 +5,7 @@ The Food Ordering Application is a comprehensive full-stack web solution built u
 
 Design Overview:
 The application offers a user-friendly interface with features such as item browsing by category, a persistent shopping cart, and secure user authentication. Key features of the platform include:
+
 Login Page
 ![Login Page](images/Screenshot%202024-09-23%20032638.png)
 Register Page
