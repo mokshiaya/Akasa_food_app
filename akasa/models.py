@@ -1,4 +1,3 @@
-# akasa/models.py
 from django.db import models
 from django.contrib.auth.models import User
 CATEGORY_CHOICES = [
@@ -8,7 +7,6 @@ CATEGORY_CHOICES = [
     ('Breads', 'Breads'),
     ('All', 'All'),  # 'All' category for the frontend to filter all items
 ]
-
 class Item(models.Model):
     name = models.CharField(max_length=255)
     category = models.CharField(max_length=50, choices=CATEGORY_CHOICES)
